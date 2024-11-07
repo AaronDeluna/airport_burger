@@ -1,5 +1,6 @@
-package com.javaacademy.burger;
+package com.javaacademy.burger.unit;
 
+import com.javaacademy.burger.Kitchen;
 import com.javaacademy.burger.dish.Dish;
 import com.javaacademy.burger.exception.KitchenHasNoGasException;
 import com.javaacademy.burger.exception.UnsupportedDishTypeException;

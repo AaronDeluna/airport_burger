@@ -1,5 +1,10 @@
-package com.javaacademy.burger;
+package com.javaacademy.burger.integration;
 
+import com.javaacademy.burger.Kitchen;
+import com.javaacademy.burger.PayTerminal;
+import com.javaacademy.burger.Paycheck;
+import com.javaacademy.burger.Steakhouse;
+import com.javaacademy.burger.Waitress;
 import com.javaacademy.burger.dish.Dish;
 import com.javaacademy.burger.dish.DishType;
 import org.junit.jupiter.api.DisplayName;
@@ -16,7 +21,7 @@ import static java.math.BigDecimal.valueOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 
-class SteakhouseItTest {
+class SteakhouseTest {
 
     @Test
     @DisplayName("Успешная покупка бургера за рубли")

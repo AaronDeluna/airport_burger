@@ -1,5 +1,7 @@
-package com.javaacademy.burger;
+package com.javaacademy.burger.unit;
 
+import com.javaacademy.burger.PayTerminal;
+import com.javaacademy.burger.Paycheck;
 import com.javaacademy.burger.exception.NotAcceptedCurrencyException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

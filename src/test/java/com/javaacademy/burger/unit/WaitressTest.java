@@ -1,5 +1,7 @@
-package com.javaacademy.burger;
+package com.javaacademy.burger.unit;
 
+import com.javaacademy.burger.Kitchen;
+import com.javaacademy.burger.Waitress;
 import com.javaacademy.burger.dish.DishType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
